@@ -1,0 +1,44 @@
+# .gitignore                                                       -*- conf -*-
+
+# Editor backup files
+*~
+\#*
+.\#*
+
+# autoscan
+autoscan.log
+configure.scan
+
+# aclocal
+aclocal.m4
+autom4te.cache/
+
+# autoconf
+configure
+
+# autoheader
+config.h.in
+
+# automake
+Makefile.in
+compile
+config.guess
+config.sub
+depcomp
+install-sh
+missing
+
+# configure
+.deps/
+Makefile
+config.h
+config.log
+config.status
+stamp-*
+
+# make
+.dirstamp
+*.o
+
+# TODO(bbarenblat): Executable name here
+hello
