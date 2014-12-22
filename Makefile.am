@@ -28,7 +28,9 @@ CXXFLAGS = \
 	-fPIE
 
 if USING_CLANG
-CXXFLAGS += -Weverything
+CXXFLAGS += \
+	-Weverything \
+	-Wno-c++98-compat
 endif USING_CLANG
 
 if USING_GCC
