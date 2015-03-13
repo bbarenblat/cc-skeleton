@@ -1,6 +1,5 @@
-# Makefile.am
 # Copyright (C) 2013, 2014  Galois, Inc.
-# Copyright (C) 2014 Benjamin Barenblat
+# Copyright (C) 2014, 2015 Benjamin Barenblat
 #
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
