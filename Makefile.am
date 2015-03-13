@@ -21,7 +21,7 @@ CPPFLAGS = \
 	-D_FORTIFY_SOURCE=2
 
 CXXFLAGS = \
-	-std=c++11
+	-std=c++11 \
 	-ftrapv \
 	-fstack-protector-strong --param=ssp-buffer-size=4 \
 	-fPIE
